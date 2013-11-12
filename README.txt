@@ -20,3 +20,4 @@ A handy utility to pull weather from NOAA services in a sane manner.
     First release not really tested...
 
 
+    pip install noaaweather

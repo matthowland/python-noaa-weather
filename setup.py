@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(
     name='noaaweather',
-    version='0.1.0',
+    version='0.1.1',
     author='Matthew Howland',
     author_email='matt.howland@lab45.com',
     packages=['noaaweather', 'noaaweather.test'],

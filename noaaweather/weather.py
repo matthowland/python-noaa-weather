@@ -40,7 +40,7 @@ class noaa(object):
 
     def fetchByURL(self, strURL):
        page=urllib2.urlopen(strURL)
-       self.soup = BeautifulSoup(page.read())
+       self.soup = BeautifulSoup(page.read(), 'html.parser')
        self.buildTimeSeries()
        #self.buildTemps()
        self.buildElements('temperature', {'temperature'})
